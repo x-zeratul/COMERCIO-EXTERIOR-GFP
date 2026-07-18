@@ -1,0 +1,116 @@
+/* =============================================================================
+   FRIOPACKING · Design Tokens
+   Centraliza toda la identidad visual. Modifica aquí para re-brandear.
+   Paleta real extraída de dashboard_inicial.html (grupo Friopacking) +
+   paleta premium de cadena de frío indicada en el brief.
+   ============================================================================= */
+:root {
+  /* --- Marca principal (azul corporativo Friopacking) --- */
+  --brand-900: #0B1F33;   /* azul marino profundo */
+  --brand-800: #003D7A;   /* navy corporativo (real) */
+  --brand-700: #0059B3;
+  --brand-600: #0072CE;   /* azul Friopacking (real) */
+  --brand-500: #1677FF;   /* azul tecnológico */
+  --brand-400: #4DA8DA;
+  --brand-300: #86C5E8;
+  --brand-200: #BFDDF7;
+  --brand-100: #EAF7FF;   /* celeste hielo */
+  --brand-50:  #F4F9FD;
+
+  /* --- Acento cian (cadena de frío) --- */
+  --accent-cyan: #23C7D9;
+  --accent-cyan-dark: #0EA5B7;
+
+  /* --- Acento cálido (marca FRIOPACKING naranja, real) --- */
+  --accent-orange: #F26522;
+
+  /* --- Neutros --- */
+  --ink-900: #0F1B27;
+  --ink-800: #18222D;   /* grafito */
+  --ink-700: #2B3946;
+  --ink-600: #475569;
+  --ink-500: #64748B;
+  --ink-400: #94A3B8;
+  --ink-300: #CBD5E1;
+  --ink-200: #E2E8F0;
+  --ink-100: #EEF2F6;
+  --ink-50:  #F8FBFD;   /* blanco frío */
+  --white:   #FFFFFF;
+
+  /* --- Semáforo ejecutivo / estados --- */
+  --ok:        #16A36A;   /* verde de cumplimiento */
+  --ok-bg:     #E6F6EF;
+  --warn:      #F5A623;   /* ámbar de alerta */
+  --warn-bg:   #FEF4E2;
+  --danger:    #D64545;   /* rojo de desviación */
+  --danger-bg: #FBE9E9;
+  --info:      #0072CE;
+  --info-bg:   #EAF7FF;
+  --neutral:   #64748B;
+  --neutral-bg:#EEF2F6;
+
+  /* --- Superficies --- */
+  --bg-app: #F1F5F9;
+  --bg-surface: #FFFFFF;
+  --bg-surface-2: #F8FBFD;
+  --bg-sidebar: #0B1F33;
+  --bg-sidebar-2: #0E2740;
+
+  /* --- Bordes --- */
+  --border: #E2E8F0;
+  --border-strong: #CBD5E1;
+  --border-brand: #BFDDF7;
+
+  /* --- Texto --- */
+  --text-strong: #0F1B27;
+  --text: #2B3946;
+  --text-muted: #64748B;
+  --text-faint: #94A3B8;
+  --text-on-brand: #FFFFFF;
+
+  /* --- Tipografía --- */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'SFMono-Regular', ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace;
+
+  --fs-xs: 0.72rem;
+  --fs-sm: 0.82rem;
+  --fs-base: 0.925rem;
+  --fs-md: 1.02rem;
+  --fs-lg: 1.2rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 1.95rem;
+  --fs-3xl: 2.6rem;
+
+  --lh-tight: 1.15;
+  --lh-normal: 1.5;
+
+  /* --- Radios --- */
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-xl: 22px;
+  --r-full: 999px;
+
+  /* --- Sombras (discretas, ejecutivas) --- */
+  --sh-xs: 0 1px 2px rgba(11,31,51,0.06);
+  --sh-sm: 0 1px 3px rgba(11,31,51,0.08), 0 1px 2px rgba(11,31,51,0.04);
+  --sh-md: 0 4px 14px rgba(11,31,51,0.08), 0 2px 6px rgba(11,31,51,0.04);
+  --sh-lg: 0 12px 34px rgba(11,31,51,0.12), 0 4px 12px rgba(11,31,51,0.06);
+  --sh-brand: 0 10px 30px rgba(0,114,206,0.20);
+
+  /* --- Gradientes controlados --- */
+  --grad-brand: linear-gradient(135deg, #003D7A 0%, #0072CE 55%, #23C7D9 130%);
+  --grad-brand-soft: linear-gradient(135deg, #EAF7FF 0%, #F8FBFD 100%);
+  --grad-ice: linear-gradient(135deg, #0B1F33 0%, #12395F 60%, #0072CE 130%);
+  --grad-sidebar: linear-gradient(180deg, #0B1F33 0%, #0E2740 100%);
+
+  /* --- Layout --- */
+  --sidebar-w: 260px;
+  --header-h: 66px;
+  --content-max: 1360px;
+
+  /* --- Transiciones --- */
+  --t-fast: 120ms cubic-bezier(0.4,0,0.2,1);
+  --t: 200ms cubic-bezier(0.4,0,0.2,1);
+  --t-slow: 320ms cubic-bezier(0.4,0,0.2,1);
+}
