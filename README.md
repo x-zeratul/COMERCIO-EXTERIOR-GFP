@@ -79,6 +79,9 @@ npm run dev        # → http://localhost:3000
 
 # 3. Ejecutar las pruebas de humo
 npm test
+
+# 4. (Opcional) Generar un HTML autocontenido de un solo archivo
+npm run bundle     # → dist/friopacking-app.html (para revisión/artifact)
 ```
 
 > No hay `npm install`: el proyecto no tiene dependencias de producción.
